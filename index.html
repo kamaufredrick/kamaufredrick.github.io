@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="logo-placeholder.png" alt="Logo" class="logo"> Your Name</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="overlay">
+            <div class="container">
+                <h1 class="display-3 text-center">Welcome to My Portfolio</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="bg-light">
+        <div class="container text-center">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non mauris arcu. Nulla facilisi. Suspendisse potenti. Cras pharetra quam ut dui varius, ut dapibus felis cursus. Donec vehicula libero id purus faucibus, sed fermentum nunc elementum.</p>
+            <img src="about-me-placeholder.jpg" alt="About Me" class="img-circle">
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-light">
+        <div class="container">
+            <h2 class="text-center">Projects</h2>
+            <div class="row">
+                <!-- Project Card 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="project-placeholder1.jpg" class="card-img-top" alt="Project Image 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Project One</h5>
+                            <p class="card-text">Brief description of Project One goes here. Explain the key features and technologies used.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="project-placeholder2.jpg" class="card-img-top" alt="Project Image 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Two</h5>
+                            <p class="card-text">Brief description of Project Two goes here. Explain the key features and technologies used.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="project-placeholder3.jpg" class="card-img-top" alt="Project Image 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Three</h5>
+                            <p class="card-text">Brief description of Project Three goes here. Explain the key features and technologies used.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container-contact">
+            <h2 class="text-center">Contact Me</h2>
+            <form id="contact-form" action="send_email.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+                    <div id="name-error" class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                    <div id="email-error" class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message"></textarea>
+                    <div id="message-error" class="error-message"></div>
+                </div>
+                <button type="submit" class="btn btn-dark">Send Message</button>
+                <div id="form-success" class="success-message"></div>
+                <div id="form-error" class="error-message"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <div class="social-media">
+                <a href="https://facebook.com/yourprofile" target="_blank"><i class="bi bi-facebook social-icon"></i></a>
+                <a href="https://twitter.com/yourprofile" target="_blank"><i class="bi bi-twitter social-icon"></i></a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="bi bi-linkedin social-icon"></i></a>
+                <a href="https://github.com/yourprofile" target="_blank"><i class="bi bi-github social-icon"></i></a>
+            </div>
+            <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

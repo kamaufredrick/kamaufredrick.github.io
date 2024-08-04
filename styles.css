@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.navbar {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+}
+
+.navbar-brand .logo {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 600; /* Makes the text bold */
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Change color on hover */
+    background-color: #f8f9fa; /* Change background color on hover */
+    border-radius: 0.25rem;
+}
+
+.navbar-nav .nav-link:active,
+.navbar-nav .nav-link:focus {
+    color: #0056b3; /* Darker color for active state */
+    background-color: #e2e6ea; /* Light gray background for focus/active state */
+}
+
+.navbar-nav .nav-link:visited {
+    color: #6c757d; /* Change color of visited links */
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1920x800') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    height: 500px;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .container {
+    z-index: 1;
+}
+
+h1.display-3 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+h2, .text-center {
+    text-align: center;
+    color: #333;
+}
+
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    color: #f8f9fa; /* Light color for better visibility */
+}
+
+footer .social-media {
+    margin-bottom: 1rem; /* Add space below the social media icons */
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: #f8f9fa; /* Light color for better visibility */
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+section#about, section#projects {
+    padding: 5rem 0;
+}
+
+section#contact {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+}
+
+.container-contact {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.btn-dark {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background-color: #555;
+    border-color: #555;
+    color: #fff;
+}
+
+.img-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.success-message {
+    color: #28a745;
+    font-size: 0.875rem;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+input.error, textarea.error {
+    border: 2px solid #dc3545; /* Red border for errors */
+    background-color: #f8d7da; /* Light red background to highlight error */
+}
