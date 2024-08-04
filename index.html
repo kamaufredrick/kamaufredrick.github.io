@@ -17,7 +17,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="home">
         <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo" class="logo"> Kamau</a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
@@ -41,14 +41,9 @@
     <!-- About Me Section -->
     <section id="about" class="bg-light">
         <div class="container text-center">
-            <h2>About Me</h2>
+            <h2 class="mb-4 gold-color">About Me</h2>
+		 <div class="para-height">
             <p>Hello! I'm Ng'ang'a Fredrick Kamau, a dedicated web designer, developer, and content creator with a passion for designing and developing exceptional websites and creating compelling content. I specialize in crafting engaging digital experiences that blend innovative design with powerful storytelling.</p>
-            <p><strong>💡 What I Do:</strong></p>
-		<ol class="list-inline list-unstyled">
-            <li><strong> Web Development:</strong> Designing and developing intuitive websites with a focus on user experience and functionality.</li>
-            <li><strong> Content Creation:</strong> Crafting persuasive and SEO-optimized digital content that captivates audiences and drives organic growth.</li>
-            <li><strong> Digital Strategy:</strong> Implementing strategies that leverage content to enhance brand visibility and engagement.</li>
-        </ol>
 			<p><strong>🌟 Skills & Expertise:</strong></p>
 		<ol class="list-inline list-unstyled">
             <li><strong> Front-End Development:</strong> HTML, CSS, JavaScript, Bootstrap, React.</li>
@@ -56,6 +51,7 @@
             <li><strong> Digital Marketing:</strong> Content Marketing, Social Media Marketing, SEO, Search Engine Marketing, Blogging, Web Analytics.</li>
             <li><strong> Design Tools:</strong> Canva.</li>
 		</ol>
+		</div>
 			<img src="images/me.jpg" alt="About Me" class="img-circle">
         </div>
     </section>
@@ -63,7 +59,7 @@
     <!-- Projects Section -->
     <section id="projects" class="bg-light">
         <div class="container">
-            <h2 class="text-center">Projects</h2>
+            <h2 class="text-center mb-4 gold-color">Projects</h2>
             <div class="row">
                 <!-- Project Card 1 -->
                 <div class="col-md-4">
@@ -71,7 +67,7 @@
                         <img src="images/online-survey.png" class="card-img-top" alt="Online Survey">
                         <div class="card-body">
                             <h5 class="card-title">Online Survey Form</h5>
-                            <p class="card-text">Created an online survey form using HTML and CSS. The project was part of my <a href="https://www.freecodecamp.org/certification/kamaufredrick/responsive-web-design" target="_blank">freeCodeCamp Responsive Web Design Certification</a> program.</p>
+                            <p class="card-text para-height">Created an online survey form using HTML and CSS. The project was part of my <a href="https://www.freecodecamp.org/certification/kamaufredrick/responsive-web-design" target="_blank">freeCodeCamp Responsive Web Design Certification</a> program.</p>
                         </div>
                     </div>
                 </div>
@@ -81,7 +77,7 @@
                         <img src="images/roman-number-converter.png" class="card-img-top" alt="Roman Number">
                         <div class="card-body">
                             <h5 class="card-title">Roman Number Converter</h5>
-                            <p class="card-text">Created a Roman number conversion application using JavaScript, HTML, and CSS. It was part of my <a href="https://www.freecodecamp.org/certification/kamaufredrick/javascript-algorithms-and-data-structures-v8" target="_blank">freeCodeCamp JavaScript Certification</a> program.</p>
+                            <p class="card-text para-height">Created a Roman number conversion application using JavaScript, HTML, and CSS. It was part of my <a href="https://www.freecodecamp.org/certification/kamaufredrick/javascript-algorithms-and-data-structures-v8" target="_blank">freeCodeCamp JavaScript Certification</a> program.</p>
                         </div>
                     </div>
                 </div>
@@ -91,7 +87,7 @@
                         <img src="images/property-econs.png" class="card-img-top" alt="Property Econs">
                         <div class="card-body">
                             <h5 class="card-title">Property Econs Blog</h5>
-                            <p class="card-text">I created the <a href="https://www.propertyecons.co.ke/" target="_blank">Property Econs</a> Blog. I write and publish property-market-related blog articles on the blog. I also share the articles on social media.</p>
+                            <p class="card-text para-height">I created the <a href="https://www.propertyecons.co.ke/" target="_blank">Property Econs</a> Blog. I write and publish property-market-related blog articles on the blog. I also share the articles on social media.</p>
                         </div>
                     </div>
                 </div>
@@ -102,7 +98,7 @@
     <!-- Contact Section -->
     <section id="contact">
         <div class="container-contact">
-            <h2 class="text-center">Contact Me</h2>
+            <h2 class="text-center mb-4">Contact Me</h2>
             <form id="contact-form" action="send_email.php" method="POST">
                 <div class="form-group">
                     <label for="name">Name</label>
@@ -129,12 +125,12 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <div class="social-media">
+            <div class="social-media mb-4">
                 <a href="https://facebook.com/kamauKOX" target="_blank"><i class="bi bi-facebook social-icon"></i></a>
                 <a href="https://linkedin.com/in/fredricknganga" target="_blank"><i class="bi bi-linkedin social-icon"></i></a>
                 <a href="https://github.com/kamaufredrick" target="_blank"><i class="bi bi-github social-icon"></i></a>
             </div>
-            <p>&copy; 2024 Kamau Fredrick. All Rights Reserved.</p>
+            <p>&copy; 2024 <a href="#home">Kamau Fredrick</a>. All Rights Reserved.</p>
         </div>
     </footer>
 

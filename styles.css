@@ -182,3 +182,9 @@ input.error, textarea.error {
 footer {
 	border-top: 4px solid #FFBF00;
 }
+.para-height {
+  line-height: 2.0 !important; /* Adjust the value as needed */
+}
+.gold-color {
+  color: #FFBF00 !important; /* Custom yellow color */
+}
