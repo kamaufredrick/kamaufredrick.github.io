@@ -37,11 +37,13 @@ body {
 }
 
 .hero {
-    background: url('https://via.placeholder.com/1920x800') no-repeat center center;
+    background: url('images/banner.png') no-repeat center center;
     background-size: cover;
     color: #fff;
     position: relative;
     height: 500px;
+	border-top: 4px solid #FFBF00;
+	border-bottom: 4px solid #FFBF00;
 }
 
 .hero .overlay {
@@ -149,8 +151,8 @@ form {
 }
 
 .img-circle {
-    width: 150px;
-    height: 150px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     object-fit: cover;
     margin-top: 2rem;
@@ -171,4 +173,12 @@ form {
 input.error, textarea.error {
     border: 2px solid #dc3545; /* Red border for errors */
     background-color: #f8d7da; /* Light red background to highlight error */
+}
+.border-thicker-custom {
+  border-width: 3px !important; /* Adjust thickness here */
+  border-color: #FFBF00 !important; /* Custom yellow color */
+  border-style: solid !important; /* Change to dashed or dotted if needed */
+}
+footer {
+	border-top: 4px solid #FFBF00;
 }
