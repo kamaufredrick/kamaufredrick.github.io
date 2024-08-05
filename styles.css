@@ -37,7 +37,7 @@ body {
 }
 
 .hero {
-    background: url('images/banner.png') no-repeat center center;
+    background: url('images/banner1.png') no-repeat center center;
     background-size: cover;
     color: #fff;
     position: relative;
@@ -75,9 +75,11 @@ h2, .text-center {
 }
 
 .card {
-    border: none;
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-width: 1px !important; /* Adjust thickness here */
+    border-color: #FFBF00 !important; /* Custom yellow color */
+    border-style: solid !important; /* Change to dashed or dotted if needed */
 }
 
 .card-img-top {
@@ -157,6 +159,9 @@ form {
     object-fit: cover;
     margin-top: 2rem;
     margin-bottom: 1.5rem;
+	border-width: 3px !important; /* Adjust thickness here */
+    border-color: #FFBF00 !important; /* Custom yellow color */
+    border-style: solid !important; /* Change to dashed or dotted if needed */
 }
 
 .success-message {
@@ -185,6 +190,22 @@ footer {
 .para-height {
   line-height: 2.0 !important; /* Adjust the value as needed */
 }
-.gold-color {
-  color: #FFBF00 !important; /* Custom yellow color */
+
+.footer-link {
+  color: #FFBF00;
+  text-decoration: none; /* Optional: removes underline */
+}
+
+.footer-link:hover,
+.footer-link:focus,
+.footer-link:active,
+.footer-link:visited {
+  color: #FFBF00;
+  text-decoration: underline; /* Optional: adds underline on hover/focus */
+}
+
+/* For better visibility of focus state */
+.footer-link:focus {
+  outline: 2px solid #FFBF00;
+  outline-offset: 2px;
 }
