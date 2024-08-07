@@ -157,7 +157,8 @@ form {
 }
 
 .img-circle {
- 	border-width: 3px !important; /* Adjust thickness here */
+ 	margin-top: 20px;
+	border-width: 3px !important; /* Adjust thickness here */
     border-color: #FFBF00 !important; /* Custom yellow color */
     border-style: solid !important; /* Change to dashed or dotted if needed */
 }
